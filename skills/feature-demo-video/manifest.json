@@ -1,0 +1,15 @@
+{
+  "name": "feature-demo-video",
+  "version": "0.1.0",
+  "category": "product",
+  "description": "Generate short branded feature demo videos from a live website (Vercel preview or prod). Captures real user-like interactions (typing, clicks) and renders a 20–40s MP4 using Remotion. Use when a new feature ships and Ghost Team wants a polished demo video for review or for social posts.",
+  "tags": ["video", "remotion", "playwright", "demo", "product", "marketing"],
+  "requires": {
+    "tools": ["exec"],
+    "bins": ["node", "npx"],
+    "env": []
+  },
+  "compatibility": {
+    "openclaw": ">=2026.2.0"
+  }
+}

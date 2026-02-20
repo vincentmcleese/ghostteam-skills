@@ -28,6 +28,14 @@
       "description": "Ghost Team Planning App — manage goals, objectives, stories, KPIs, sprints, and activity logs via Neon MCP (planning DB) and Supabase MCP (product data)"
     },
     {
+      "name": "feature-demo-video",
+      "path": "skills/feature-demo-video",
+      "version": "0.1.0",
+      "category": "product",
+      "tags": ["video", "remotion", "playwright", "demo", "product", "marketing"],
+      "description": "Generate short branded feature demo videos from a live website using Playwright capture + Remotion rendering"
+    },
+    {
       "name": "headless-browsing",
       "path": "skills/headless-browsing",
       "version": "1.0.0",
