@@ -1,12 +1,14 @@
 {
   "name": "mercury-finance",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "finance",
-  "description": "Daily finance tracking, subscription auditing, cash position monitoring, and tax compliance via Mercury Banking API",
-  "tags": ["mercury", "banking", "subscriptions", "runway", "1099"],
+  "description": "Ghost Team financial intelligence combining Mercury Banking API, Gmail (accountant/invoices/receipts), and Google Drive (financial documents/trackers). Use for bank balances, transactions, subscriptions, spend, runway, invoices, bookkeeping, tax compliance, and finance reports.",
+  "tags": ["mercury", "banking", "subscriptions", "runway", "1099", "gmail", "invoices", "bookkeeping", "doola", "drive"],
   "requires": {
     "secrets": ["mercury_api_token"],
-    "tools": ["exec", "message", "cron"]
+    "tools": ["exec", "message", "cron"],
+    "env": ["GOG_KEYRING_PASSWORD", "GOG_ACCOUNT"],
+    "bins": ["gog"]
   },
   "compatibility": {
     "openclaw": ">=2026.2.0"

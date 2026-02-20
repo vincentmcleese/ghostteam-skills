@@ -6,10 +6,10 @@
     {
       "name": "mercury-finance",
       "path": "skills/mercury-finance",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "finance",
-      "tags": ["mercury", "banking", "subscriptions", "runway", "1099"],
-      "description": "Daily finance tracking, subscription auditing, cash position monitoring, and tax compliance via Mercury Banking API"
+      "tags": ["mercury", "banking", "subscriptions", "runway", "1099", "gmail", "invoices", "bookkeeping", "doola", "drive"],
+      "description": "Ghost Team financial intelligence combining Mercury Banking API, Gmail (accountant/invoices/receipts), and Google Drive (financial documents/trackers)"
     },
     {
       "name": "headless-browsing",
