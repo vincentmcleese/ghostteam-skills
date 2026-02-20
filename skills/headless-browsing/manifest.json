@@ -1,0 +1,14 @@
+{
+  "name": "headless-browsing",
+  "version": "1.0.0",
+  "category": "browsing",
+  "description": "Web scraping, form submission, and interaction with JavaScript-heavy or bot-protected websites using OpenClaw browser tool and Firecrawl API",
+  "tags": ["scraping", "forms", "firecrawl", "browser", "automation", "cloudflare"],
+  "requires": {
+    "secrets": ["firecrawl_api_key"],
+    "tools": ["browser", "exec"]
+  },
+  "compatibility": {
+    "openclaw": ">=2026.2.0"
+  }
+}
