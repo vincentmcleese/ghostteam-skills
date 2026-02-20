@@ -1,0 +1,15 @@
+{
+  "name": "planning-app",
+  "version": "1.0.0",
+  "category": "planning",
+  "description": "Ghost Team Planning App — manage goals, objectives, stories, KPIs, sprints, and activity logs via Neon MCP (planning DB) and Supabase MCP (product data). Use for sprint planning, task tracking, progress updates, and cross-referencing product analytics.",
+  "tags": ["planning", "neon", "supabase", "sprints", "stories", "kpis", "goals"],
+  "requires": {
+    "secrets": ["neon_api_token", "supabase_pat"],
+    "tools": ["exec"],
+    "bins": ["mcporter"]
+  },
+  "compatibility": {
+    "openclaw": ">=2026.2.0"
+  }
+}

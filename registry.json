@@ -12,6 +12,14 @@
       "description": "Ghost Team financial intelligence combining Mercury Banking API, Gmail (accountant/invoices/receipts), and Google Drive (financial documents/trackers)"
     },
     {
+      "name": "planning-app",
+      "path": "skills/planning-app",
+      "version": "1.0.0",
+      "category": "planning",
+      "tags": ["planning", "neon", "supabase", "sprints", "stories", "kpis", "goals"],
+      "description": "Ghost Team Planning App — manage goals, objectives, stories, KPIs, sprints, and activity logs via Neon MCP (planning DB) and Supabase MCP (product data)"
+    },
+    {
       "name": "headless-browsing",
       "path": "skills/headless-browsing",
       "version": "1.0.0",
