@@ -98,16 +98,21 @@ Add to your `mcporter.json`:
 
 Refresh views: `SELECT refresh_track_views();`
 
-## Users
+## Team Members (Actors)
+
+Ghost Team has two human team members who do the actual work. All stories, goals, and KPIs are assigned to one of them. AI agents (Freddy, Maya, Ghosty, James) manage planning data but are **not** assignees.
+
+| Name | Role | UUID | Email |
+|------|------|------|-------|
+| **Vincent McLeese** | Cofounder, Tech Lead | `2549f386-e526-4f9e-9626-e4feee96ca6d` | vincent@ghostteam.ai |
+| **Elliot Garreffa** | Cofounder, Growth Lead | `e586df16-a268-4736-b71a-e19cf1bf398c` | elliot@ghostteam.ai |
 
 Always use the correct UUID for `created_by`, `assignee_id`, `accountable_id`, `recorded_by`.
 
-| Name | UUID | Email |
-|------|------|-------|
-| **Vincent McLeese** | `2549f386-e526-4f9e-9626-e4feee96ca6d` | vincent@ghostteam.ai |
-| **Elliot Garreffa** | `e586df16-a268-4736-b71a-e19cf1bf398c` | elliot@ghostteam.ai |
-
-Default `created_by`: Vincent's UUID (unless specified otherwise).
+- **Vincent** owns: product development, engineering, technical experiments, infrastructure
+- **Elliot** owns: growth, client delivery, LinkedIn content, outreach, partnerships
+- Default `created_by`: Vincent's UUID (unless specified otherwise)
+- When creating stories, always set `assignee_id` to the appropriate person based on their domain
 
 ## Hierarchy
 
