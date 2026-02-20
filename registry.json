@@ -4,7 +4,15 @@
   "categories": ["finance", "product", "growth", "planning", "ops", "client", "browsing"],
   "skills": [
     {
-      "name": "mercury-finance",
+      "name": "agent-backup-github",
+      "path": "skills/agent-backup-github",
+      "version": "1.0.0",
+      "category": "ops",
+      "tags": ["backup", "github", "disaster-recovery", "openclaw", "cron"],
+      "description": "Daily automated OpenClaw backups to private GitHub with secret-safe exclusions and restore workflow"
+    },
+    {
+      "name": "mercury-finance", 
       "path": "skills/mercury-finance",
       "version": "1.1.0",
       "category": "finance",

@@ -24,7 +24,8 @@ Modular, self-contained capabilities for AI agents. Agents browse the registry, 
 
 | Skill | Category | Version | Description |
 |-------|----------|---------|-------------|
-| [mercury-finance](skills/mercury-finance/) | finance | 1.0.0 | Daily finance tracking, subscription auditing, cash monitoring via Mercury API |
+| [agent-backup-github](skills/agent-backup-github/) | ops | 1.0.0 | Daily OpenClaw backups to private GitHub with restore workflow |
+| [mercury-finance](skills/mercury-finance/) | finance | 1.1.0 | Ghost Team financial intelligence via Mercury + Gmail + Drive |
 | [headless-browsing](skills/headless-browsing/) | browsing | 1.0.0 | Web scraping, form submission, and interaction with JS-heavy sites |
 
 ## For Agents
