@@ -33,6 +33,9 @@ rsync -a --delete "$SRC_OC/workspace/" "$BACKUP_ROOT/.openclaw/workspace/"
 rm -rf "$BACKUP_ROOT/.openclaw/workspace/.secrets"
 find "$BACKUP_ROOT" -type f \( -name "*.pem" -o -name "*.key" -o -name "*.p12" \) -delete
 
+# Remove nested .git dirs to avoid submodule issues
+find "$BACKUP_ROOT" -mindepth 2 -name ".git" -exec rm -rf {} + 2>/dev/null || true
+
 # Git push
 cd "$BACKUP_ROOT"
 git init -q
