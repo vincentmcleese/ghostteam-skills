@@ -1,0 +1,12 @@
+{
+  "name": "case-study-writer",
+  "version": "1.0.0",
+  "category": "growth",
+  "description": "Transform raw project information into compelling case studies matching Relevance AI's proven structure",
+  "tags": ["case-study", "content", "marketing", "portfolio"],
+  "requires": {
+    "tools": [],
+    "env": []
+  },
+  "author": "Ghost Team"
+}

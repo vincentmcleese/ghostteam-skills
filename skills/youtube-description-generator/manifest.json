@@ -1,0 +1,12 @@
+{
+  "name": "youtube-description-generator",
+  "version": "1.0.0",
+  "category": "growth",
+  "description": "Transform YouTube video transcripts into optimized YouTube descriptions following Elliot Garreffa's exact format",
+  "tags": ["youtube", "video", "description", "seo", "content"],
+  "requires": {
+    "tools": [],
+    "env": []
+  },
+  "author": "Ghost Team"
+}

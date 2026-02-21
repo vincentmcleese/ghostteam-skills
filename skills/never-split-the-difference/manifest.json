@@ -1,0 +1,12 @@
+{
+  "name": "never-split-the-difference",
+  "version": "1.0.0",
+  "category": "client",
+  "description": "Negotiation coach powered by Chris Voss's methodology for sales calls, pricing discussions, and deal-making",
+  "tags": ["negotiation", "sales", "chris-voss", "coaching", "deals"],
+  "requires": {
+    "tools": [],
+    "env": []
+  },
+  "author": "Ghost Team"
+}

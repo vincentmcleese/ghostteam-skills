@@ -1,0 +1,12 @@
+{
+  "name": "linkedin-to-x-post-converter",
+  "version": "1.0.0",
+  "category": "growth",
+  "description": "Transform LinkedIn posts into high-performing X posts across 6 different formats",
+  "tags": ["linkedin", "x", "twitter", "conversion", "social-media"],
+  "requires": {
+    "tools": [],
+    "env": []
+  },
+  "author": "Ghost Team"
+}

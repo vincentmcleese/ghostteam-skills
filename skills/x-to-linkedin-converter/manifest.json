@@ -1,0 +1,12 @@
+{
+  "name": "x-to-linkedin-converter",
+  "version": "1.0.0",
+  "category": "growth",
+  "description": "Transform X posts into LinkedIn posts with automatic post type detection and multiple hook variations",
+  "tags": ["x", "twitter", "linkedin", "conversion", "social-media"],
+  "requires": {
+    "tools": [],
+    "env": []
+  },
+  "author": "Ghost Team"
+}

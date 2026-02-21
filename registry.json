@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "updated": "2026-02-20",
+  "version": "1.1.0",
+  "updated": "2026-02-21",
   "categories": ["finance", "product", "growth", "planning", "ops", "client", "browsing"],
   "skills": [
     {
@@ -42,6 +42,86 @@
       "category": "browsing",
       "tags": ["scraping", "forms", "firecrawl", "browser", "automation"],
       "description": "Web scraping, form submission, and interaction with JavaScript-heavy or bot-protected websites using OpenClaw browser tool and Firecrawl API"
+    },
+    {
+      "name": "case-study-writer",
+      "path": "skills/case-study-writer",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["case-study", "content", "marketing", "portfolio"],
+      "description": "Transform raw project information into compelling case studies matching Relevance AI's proven structure"
+    },
+    {
+      "name": "elliot-newsletter-writer",
+      "path": "skills/elliot-newsletter-writer",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["newsletter", "beehiiv", "content", "email"],
+      "description": "Generate Beehiiv-style newsletters for Elliot Garreffa covering ChatGPT Apps, MCP Apps, Ghost Team updates"
+    },
+    {
+      "name": "linkedin-post-writer",
+      "path": "skills/linkedin-post-writer",
+      "version": "2.0.0",
+      "category": "growth",
+      "tags": ["linkedin", "social-media", "content", "copywriting"],
+      "description": "Write high-performing LinkedIn posts in Elliot Garreffa style with multiple post types and hook variations"
+    },
+    {
+      "name": "linkedin-to-x-post-converter",
+      "path": "skills/linkedin-to-x-post-converter",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["linkedin", "x", "twitter", "conversion", "social-media"],
+      "description": "Transform LinkedIn posts into high-performing X posts across 6 different formats"
+    },
+    {
+      "name": "never-split-the-difference",
+      "path": "skills/never-split-the-difference",
+      "version": "1.0.0",
+      "category": "client",
+      "tags": ["negotiation", "sales", "chris-voss", "coaching", "deals"],
+      "description": "Negotiation coach powered by Chris Voss's methodology for sales calls, pricing discussions, and deal-making"
+    },
+    {
+      "name": "x-article-writer",
+      "path": "skills/x-article-writer",
+      "version": "2.0.0",
+      "category": "growth",
+      "tags": ["x", "twitter", "articles", "long-form", "content"],
+      "description": "Write high-performing X Articles (long-form content) using thesis-driven hooks, concrete specifics, and named frameworks"
+    },
+    {
+      "name": "x-post-creator",
+      "path": "skills/x-post-creator",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["x", "twitter", "social-media", "content", "threads"],
+      "description": "Transform any content into high-performing X posts with multiple format variations"
+    },
+    {
+      "name": "x-to-linkedin-converter",
+      "path": "skills/x-to-linkedin-converter",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["x", "twitter", "linkedin", "conversion", "social-media"],
+      "description": "Transform X posts into LinkedIn posts with automatic post type detection and multiple hook variations"
+    },
+    {
+      "name": "youtube-description-generator",
+      "path": "skills/youtube-description-generator",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["youtube", "video", "description", "seo", "content"],
+      "description": "Transform YouTube video transcripts into optimized YouTube descriptions following Elliot Garreffa's exact format"
+    },
+    {
+      "name": "youtube-to-linkedin-converter",
+      "path": "skills/youtube-to-linkedin-converter",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["youtube", "linkedin", "conversion", "transcript", "content"],
+      "description": "Transform YouTube transcripts into LinkedIn posts with automatic post type detection and multiple hook variations"
     }
   ]
 }

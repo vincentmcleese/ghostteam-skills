@@ -1,0 +1,12 @@
+{
+  "name": "elliot-newsletter-writer",
+  "version": "1.0.0",
+  "category": "growth",
+  "description": "Generate Beehiiv-style newsletters for Elliot Garreffa covering ChatGPT Apps, MCP Apps, Ghost Team updates",
+  "tags": ["newsletter", "beehiiv", "content", "email"],
+  "requires": {
+    "tools": [],
+    "env": []
+  },
+  "author": "Ghost Team"
+}
